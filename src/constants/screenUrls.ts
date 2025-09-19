@@ -1,0 +1,21 @@
+const screenUrl = {
+  HOME: "/",
+  PROFILE: "/profile",
+  ABOUT: "/about",
+  SHOP: "/shop",
+  SHOP_SINGLE: "/shop/:id",
+  CONTACT: "/contact",
+  NOT_FOUND: "*",
+  LOGIN: "/login",
+  REGISTER: "/register",
+  CART: "/cart",
+  ORDERS: "/orders",
+  CATEGORIES: "/categories",
+  ADMIN: "/admin",
+  ADMIN_USERS: "/admin/users",
+  ADMIN_PRODUCTS: "/admin/products",
+  ADMIN_CATEGORIES: "/admin/categories",
+  ADMIN_ORDERS: "/admin/orders",
+  ADMIN_STATS: "/admin/stats",
+};
+export default screenUrl;
